@@ -1,7 +1,8 @@
-cd frimans.github.io
+
+
 body{
   background: gray;
-  background-image: url("mountain.JPG");
+  background-image: url("mountain.jpg");
   background-size: center;
   background-position: center;
   font-family: arial;
