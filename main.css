@@ -46,10 +46,17 @@ nav ul li{
   color: white;
   display: inline-block;
   list-style-type: none;
-  padding: 5px;
+  padding: 6px;
   background: black;
 }
 
+nav ul li:hover{
+  background-color: #008CBA;
+}
+
+li.active{
+  background-color: rgb(19, 100, 158);
+}
 
 ul{
 
