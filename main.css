@@ -2,7 +2,7 @@
 
 body{
   background: gray;
-  background-image: url("mountain.JPG");
+  background-image: url("Images/mountain.JPG");
   background-size: center;
   background-position: center;
   font-family: arial;
@@ -137,14 +137,27 @@ div.text{
   -ms-transform: translate(-50%, -50%);
 }
 
+
+
 .projects{
   display: inline-block;
   margin: 10px;
 }
 
+
+
 .space{
   height: 50px;
 
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
 }
 
 footer{

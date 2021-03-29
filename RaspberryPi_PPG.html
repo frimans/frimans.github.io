@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+
+<head>
+<title> Severi Friman      </title>
+<link href="main.css" rel="stylesheet" type="text/css"/>
+<meta name="viewport" content="width=device-width", user-scalable="no">
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html"> Home </a></li>
+      <li><a href="contacts.html"> Contacts </a></li>
+      <li><a href="Projects.html"> Projects </a></li>
+    </ul>
+  </nav>
+</header>
+
+
+
+<br>
+
+<div class="transbox">
+  <h2>Raspberry Pi PPG</h2>
+  <p>In this project I tested if I could measure PPG with a Raspberry Pi 4 (Model B) based system.<br>
+    The working principle is that a red led is used as the light source, and a light transistor<br>
+    measures the amount of light transmitted trough the finger. Raspberry Pi has only digital data <br>
+    pins, and that is why a MCP3008 analog to digital converter is used for digitalizing the voltages <br>
+    from the phototransistor. The measurement and analysis programs were implemented in Python.
+
+
+
+  </p>
+  <br>
+  <div class="row">
+    <div class="column">
+      <img class="ekg"  src="Images/PI_PPG_system.JPG" alt="The system overwiev image" width="300" height="250"></img>
+    </div>
+
+    <div class="column">
+      <img class="ekg"  src="Images/PI_PPG_sensors.JPG" alt="Closer look at the sensors" width="300" height="250"></img>
+    </div>
+  </div>
+
+  <p>The data is filtered and a naive peak detection is implemeted. The heart rate can be calculated <br>
+    with the system. Currently no amplifier is used to enhance the signal. Also a some sort of concealed <br>
+    clip has to be implemented to reduce the amount of ambient light hitting the phototransistor.
+
+
+
+  </p>
+
+
+  <img class="ekg"  src="Images/PPG_data_plot.png" alt="Sensor data graph" width="650" height="250"></img>
+
+
+</div>
+
+<br>
+
+
+</body>
+
+<footer class="footer">
+Site by Severi Friman
+</footer>
+
+</html>
