@@ -18,6 +18,7 @@ div.textfield{
   padding-left: 60px;
 	padding-right: 60px;
   margin: 190px;
+  font-size: 20;
 }
 
 header{
@@ -36,9 +37,9 @@ header{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 17px;
+  padding: 20px 22px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .topnav a:hover {
