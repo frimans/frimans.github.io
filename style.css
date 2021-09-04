@@ -7,6 +7,18 @@ html,body{margin:0;padding:0}
 .keyart, .keyart_layer {
   height: 1000px;
 }
+h1{
+  color: white;
+  font-size: 40;
+  text-align: center;
+}
+div.textfield{
+  text-align: justify;
+  color: white;
+  padding-left: 60px;
+	padding-right: 60px;
+  margin: 190px;
+}
 
 header{
   background: black;
@@ -24,9 +36,9 @@ header{
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 17px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .topnav a:hover {
