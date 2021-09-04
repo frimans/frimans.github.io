@@ -18,7 +18,7 @@ div.textfield{
   padding-left: 60px;
 	padding-right: 60px;
   margin: 190px;
-  font-size: 30;
+  font-size: 40;
 }
 
 header{
@@ -175,6 +175,19 @@ img.naamakuva{
   top: 99%;
   left: 0;
   right: 0;
-  height: 2000px;
+  height: 3000px;
   z-index: 2;
+}
+
+footer{
+  position: absolute;
+  display: block;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #0e2f36;
+  color: white;
+  font-size: 20px;
+  padding: 20px 22px;
+
 }
