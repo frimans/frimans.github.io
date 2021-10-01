@@ -13,6 +13,13 @@ h1{
   text-align: center;
 }
 
+h2{
+  color: white;
+  font-size: 20;
+  text-align: center;
+  font-style: italic;
+}
+
 div.intro{
   text-align: center;
   font-size: 40;
