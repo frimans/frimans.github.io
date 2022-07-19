@@ -4,6 +4,10 @@ function castParallax() {
 	var opThresh = 350;
 	var opFactor = 750;
 	var width = window.screen.width;
+	var height = window.screen.height;
+	console.log(width);
+	console.log(height);
+	console.log(width / height);
 
 
 	window.addEventListener("scroll", function(event){
@@ -15,8 +19,8 @@ function castParallax() {
     // Set different speeds for each parallax layer
 		for (var i = 0; i < layers.length; i++) {
 			layer = layers[i];
-			console.log(width);
-			if(width >= 600){speed = layer.getAttribute('data-speed');}
+
+			if(width/height > 1){speed = layer.getAttribute('data-speed');}
 			else {
 				speed = "100"
 			}
