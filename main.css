@@ -137,7 +137,12 @@ div.text{
   -ms-transform: translate(-50%, -50%);
 }
 
-
+div.index_backround{
+  background: #15242b;
+  display: block;
+  position: absolute;
+  z-index: 2;
+}
 
 .projects{
   display: inline-block;

@@ -192,6 +192,14 @@ img.naamakuva{
   z-index: 2;
 }
 
+div.index_backround{
+  background: #15242b;
+  
+  height: 100vh;
+  
+  
+}
+
 footer{
   position: absolute;
   display: block;
