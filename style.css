@@ -196,7 +196,7 @@ div.index_backround{
   background: #15242b;
   
   height: 100vh;
-  
+  z-index: 2;
   
 }
 
