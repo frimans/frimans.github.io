@@ -19,12 +19,34 @@ h2{
   text-align: center;
   font-style: italic;
 }
+div.transbox {
+  color: black;
+  background: rgba(255, 255, 255, 0.6);
+  display: inline-block;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
+
+div.transbox2 {
+  color: black;
+  background: rgba(9, 9, 9, 0.6);
+  
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.4);
+  padding: 15px;
+}
 
 div.intro{
   text-align: center;
   font-size: 40;
   color: white;
 }
+
+div.intro2{
+  text-align: left;
+  font-size: 40;
+  color: white;
+}
+
 div.textfield{
   text-align: justify;
   color: white;
@@ -80,6 +102,7 @@ img.titleimage{
   
   
   position: relative;
+  padding: 1%;
   max-width: 100%;
   height: auto;
   display: block;
