@@ -104,6 +104,7 @@ img.titleimage{
   position: relative;
   padding: 1%;
   max-width: 100%;
+  
   height: auto;
   display: block;
   margin-left: auto;
@@ -229,7 +230,7 @@ img.titleimage{
 div.index_backround{
   background: #15242b;
   
-  height: 130vh;
+  height: 180vh;
   z-index: 2;
   
 }
