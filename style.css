@@ -235,7 +235,7 @@ div.index_backround{
 }
 
 footer{
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   display: block;
   bottom: 0;
