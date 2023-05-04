@@ -2,7 +2,7 @@
 /* PARALLAX */
 
 /*Override the user agent stylesheet margins and padding*/
-html,body{margin:0;padding:0;height: 100%;min-height: 100%;}
+html,body{margin:0;padding:0;height: 100%;min-height: 100%; width: 100%;}
 
 .keyart, .keyart_layer {
   height: 1000px;
@@ -230,7 +230,7 @@ img.titleimage{
 div.index_backround{
   background: #15242b;
   
-  height: 180vh;
+  height: 230vh;
   z-index: 2;
   
 }
