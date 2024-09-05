@@ -1,4 +1,2 @@
-# frimans.github.io
-My webpage
-
-This project contains my web pages!
+This is my website!
+Based on https://github.com/RyanFitzgerald/devportfolio?tab=readme-ov-file
